@@ -12,7 +12,7 @@ The project includes:
 
 ## 📁 Project Structure
 
-MAUDE-GOLDBERG-SCRAPER/
+web-scraping--maude-fda-upwork/
 
 1-) data/ # Raw data saved in JSON format
 
