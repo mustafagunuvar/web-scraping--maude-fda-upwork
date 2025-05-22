@@ -13,13 +13,12 @@ The project includes:
 ## 📁 Project Structure
 
 MAUDE-GOLDBERG-SCRAPER/
-│
-├── data/ # Raw data saved in JSON format
-├── venv/ # Virtual environment (excluded in .gitignore)
-├── api_scraper.py # Python script for collecting data from the API
-├── maude_fda_scraper_analysis.ipynb # Jupyter notebook for EDA and visualization
-├── requirements.txt # List of required Python packages
-└── .env # Environment file for base URL and PCODE list
+1-) data/ # Raw data saved in JSON format
+2-) venv/ # Virtual environment (excluded in .gitignore)
+3-) api_scraper.py # Python script for collecting data from the API
+4-) maude_fda_scraper_analysis.ipynb # Jupyter notebook for EDA and visualization
+5-) requirements.txt # List of required Python packages
+6-) .env # Environment file for base URL and PCODE list
 
 ## ⚙️ Technologies Used
 
@@ -63,6 +62,7 @@ MAUDE-GOLDBERG-SCRAPER/
 
 🧑‍💻 Author
 Mustafa Günüvar
+
 Junior Data Scientist | Web Scraping | Data Analysis
 
 
