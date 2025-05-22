@@ -66,6 +66,31 @@ web-scraping--maude-fda-upwork/
    jupyter notebook maude_fda_scraper_analysis.ipynb
    ```
 
+---
+
+## 📦 Scraped Files Overview
+
+| Product Code | File Name                      | Previewable on GitHub | Notes                             |
+|--------------|--------------------------------|------------------------|-----------------------------------|
+| LLZ          | `LLZ_20250520_011418.json`     | ❌ Too Large           | Fully accessible via repo clone  |
+| GEH          | `GEH_20250520_011518.json`     | ❌ Too Large           | File is in repository             |
+| OSH          | `OSH_20250520_011623.json`     | ✅ Yes                 | Available in `data/` folder      |
+
+> ⚠️ **Note**: GitHub does not allow in-browser preview of large JSON files.  
+> These files are still available in the repository and can be downloaded by cloning.
+
+---
+
+## 💡 Proof of Scraping
+
+This repository includes:
+- Raw `.json` files fetched directly via openFDA API.
+- Reproducible scraping logic inside `api_scraper.py`.
+- Timestamped and structured file naming for clarity.
+- Pagination and error-handling integrated into the scraper.
+
+---
+
 🧑‍💻 Author
 Mustafa Günüvar
 
